@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Coding Bootcamp Testimonials Slider</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script src="main.js" defer></script>
+  </head>
+  <body class="min-h-[100vh] grid place-content-center text-dark-blue">
+    <article id="slide-1" class="max-w-[90vw] mx-auto grid md:grid-cols-2">
+      <section class="md:order-2">
+        <div
+          class="max-w-[300px] mx-auto my-16 relative drop-shadow-xl md:max-w-[600px]"
+        >
+          <img class="rounded-md" src="./images/image-tanya.jpg" alt="" />
+          <div
+            class="bg-white p-2.5 rounded-full flex gap-8 absolute bottom-0 left-1/2 -translate-x-1/2 -mb-4 drop-shadow-xl z-10 md:left-[10%] md:-translate-x-0"
+          >
+            <img
+              class="previous cursor-pointer"
+              src="./images/icon-prev.svg"
+              alt=""
+            />
+            <img
+              class="next cursor-pointer"
+              src="./images/icon-next.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section
+        class="px-16 mb-24 text-center relative z-10 md:my-auto md:text-start md:px-0 md:pl-[5.5vw] md:-mr-16 lg:-mr-[9vw]"
+      >
+        <img
+          class="max-w-[60px] absolute -mt-5 left-1/2 -translate-x-1/2 md:max-w-[100px] md:left-[25%] md:-mt-14 md:-translate-x-0"
+          src="./images/pattern-quotes.svg"
+          alt=""
+        />
+        <p class="text-lg font-light mb-4 md:text-2xl md:mb-7 lg:text-4xl">
+          &quot; I've been interested in coding for a while but never taken the
+          jump, until now. I couldn't recommend this course enough. I'm now in
+          the job of my dreams and so excited about the future. &quot;
+        </p>
+        <div class="md:flex md:gap-3 lg:text-lg">
+          <p class="font-bold">Tanya Sinclair</p>
+          <p class="text-grayish-blue">UX Engineer</p>
+        </div>
+      </section>
+    </article>
+    <article id="slide-2" class="hidden max-w-[90vw] mx-auto md:grid-cols-2">
+      <section class="md:order-2">
+        <div
+          class="max-w-[300px] mx-auto my-16 relative md:max-w-[600px] drop-shadow-xl"
+        >
+          <img class="rounded-md" src="./images/image-john.jpg" alt="" />
+          <div
+            class="bg-white p-2.5 rounded-full flex gap-8 absolute bottom-0 left-1/2 -translate-x-1/2 -mb-4 drop-shadow-xl z-10 md:left-[10%] md:-translate-x-0"
+          >
+            <img
+              class="previous cursor-pointer"
+              src="./images/icon-prev.svg"
+              alt=""
+            />
+            <img
+              class="next cursor-pointer"
+              src="./images/icon-next.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section
+        class="px-16 mb-24 text-center relative z-10 md:my-auto md:text-start md:px-0 md:pl-[5.5vw] md:-mr-16 lg:-mr-[9vw]"
+      >
+        <img
+          class="max-w-[60px] absolute -mt-5 left-1/2 -translate-x-1/2 md:max-w-[100px] md:left-[25%] md:-mt-14 md:-translate-x-0"
+          src="./images/pattern-quotes.svg"
+          alt=""
+        />
+        <p class="text-lg font-light mb-4 md:text-2xl md:mb-7 lg:text-4xl">
+          &quot; If you want to lay the best foundation possible I'd recommend
+          taking this course. The depth the instructors go into is incredible. I
+          ow feel so confident about starting up as a professional developer.
+          &quot;
+        </p>
+        <div class="md:flex md:gap-3 lg:text-lg">
+          <p class="font-bold">John Tarkpor</p>
+          <p class="text-grayish-blue">Junior Front-end Developer</p>
+        </div>
+      </section>
+    </article>
+  </body>
+</html>
