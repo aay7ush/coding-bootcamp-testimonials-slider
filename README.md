@@ -12,7 +12,7 @@ Building realistic projects to improve my front-end skills.
 
 ### Links
 
-- Live Site URL: [Coding bootcamp testimonials slider](https://project-tracking-comp0nent.netlify.app/)
+- Live Site URL: [Coding bootcamp testimonials slider](https://coding-test1monials-slider.netlify.app/)
 
 ## Built with
 
